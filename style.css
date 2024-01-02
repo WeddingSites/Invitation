@@ -1,0 +1,579 @@
+/* Import fonts if needed */
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+@font-face {
+    font-family: "josephsophia";
+    src: url('./assets/fonts/josephsophia.otf');
+    /* Add more font formats for cross-browser compatibility if needed */
+}
+
+
+
+/* Reset default styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Set base font size */
+html {
+    font-size: 20px;
+   
+}
+/* body{
+    
+} */
+
+/* General container styles */
+.container {
+    /* position: relative; */
+    height: 100%;
+    width: 100vw;
+}
+
+/* Heading styles */
+.container .head {
+    height: 30vh;
+    background-color: white;
+    /* position: sticky; */
+    top: 0;
+    z-index: 111;
+}
+
+/* Navigation styles */
+.nav {
+    width: 100%;
+    height: 28vh;
+    background-image: url(./assets/img/thoranam.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+/* Page one styles */
+
+
+
+.main-container .page-one::before{
+    content: '';
+    position: absolute;
+    top: 8%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+    background-image: url(./assets/img/pngwing-ring.png);
+    /* background-image: url(./assets/img/propose-girlfriends.gif); */
+    background-repeat: no-repeat;
+    background-size: 140%;
+    /* background-size: cover; */
+    background-blend-mode:overlay;
+    background-position-x: 80%;
+    /* border-radius: 20%; */
+    
+    opacity: 0.24;
+    z-index: -1;
+}
+.main-container .page-one {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+   
+  
+    opacity: 1;
+}
+.page-one-overlay{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: #000428;
+    opacity: 0.3;
+}
+.tamil-quets{
+    /* display: none; */
+    display: flex;
+    /* justify-content: center; */
+    font-family: 'Raleway', sans-serif;
+    font-family: style script;
+    padding: 0px;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.1rem;
+    color:black;
+    font-weight: 500;
+    opacity: 0.8;
+    position: relative;
+    top:0;
+    /* left: 27px; 
+    bottom: 100px; */
+    /* text-align: center; */
+}
+.main-container .page-one .text-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    
+    /* border-radius: 10%; */
+    align-items: center;
+    /* margin-top: 20%; */
+    margin-bottom: 10%;
+}
+.main-container .page-one h1,
+.main-container .page-one p {
+    font-family: "josephsophia", sans-serif;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 3rem;
+    color: #000428;
+    z-index: 10;
+    /* margin-bottom: 29px; */
+    background: linear-gradient(3deg, #fff, #000428);
+    /* background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    /* background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%); */
+/* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); */
+
+    /* text-shadow: 1px 1px 4px rgb(255, 255, 255); */
+
+}
+
+
+/* Page two styles */
+.main-container .page-two {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .page-two h2 {
+
+    font-family:'style script', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline;
+    font-size: 1.8rem;
+    color: #f3af30;
+    /* padding-top: 50%; */
+    font-weight: 550;
+    
+    margin: 7px;
+}
+.main-container .page-two p{
+    text-align:center;
+    font-family: 'Style Script', cursive;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color:#000428;
+    font-weight: 400;
+    padding: 9px 9px 0px;
+}
+
+.main-container .page-two h2 b {
+
+    color: #3a9197;
+    font-weight: 550;
+    font-size: 1.8rem;
+}
+
+.main-container .page-two span {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* margin-top: 30px; */
+    background-image: url(./assets/img/ring.png);
+    background-position: center;
+    
+    background-size: cover; 
+     
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+    /* transform: scaleX(-1); */
+    transform-origin: center;
+    z-index: 11;
+}
+.main-container .page-two .and{
+    display: inline;
+    font-family: 'style script',sans-serif;
+    text-align: center;
+    color: #e66868;
+    /* font-size: 2.5rem; */
+    margin: 6px;
+    font-weight: 100;
+}
+.main-container .page-three .page-three-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+    height: 80vh;
+    background-color: transparent;
+}
+.main-container .page-three{
+    position: relative;
+    height: 70vh;
+}
+
+.page-three-container .place-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 10vh;
+    background-image: url(./assets/img/Pngtreenameplate.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   /* background-blend-mode: saturation; */
+    /* mix-blend-mode: soft-light; */
+    text-align: center;
+    /* background-color: #000428; */
+}
+
+.main-container .page-three::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.1; /* Adjust opacity as needed */
+    background-image: url(./assets/img/flying-birds.png);
+    background-position: center;
+    background-size: contain;
+    /* height: 50vh; */
+    background-repeat: no-repeat;
+    z-index: -11;
+}
+
+
+/* coundown timer start */
+.countdown {
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .countdown-item {
+    text-align: center;
+    /* margin: 0 15px; */
+    width: 20vw;
+    height: inherit;
+    /* background-color: #000428; */
+    border-radius: 9px;
+    font-family: 'Style Script', cursive;
+    animation: fadeIn 1s ease-in-out;
+    
+  }
+  
+  .countdown-label {
+    display: block;
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 600;
+  }
+  
+  #days, #hours, #minutes, #seconds {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Adjust the values for the shadow */
+    font-family: 'Style Script', cursive;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 9px;
+    font-size: 1.3rem;
+    color:#000428;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+
+/* coundown timer end */
+.date-container{
+    display: flex;
+    justify-content: center;
+    
+    width: 80%;
+}
+
+#saveDateButton{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* letter-spacing: 3px; */
+    background-color: #000428;
+    /* border: 1px solid green; */
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    
+}
+.page-three h2{
+   
+    font-family: 'style script';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.page-three h3{
+    font-family: 'Style Script', cursive;
+    font-size: larger;
+    /* height: 200px; */
+    color: green;
+    color: #000428;
+}
+.page-three p{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.page-three .location-a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    background-color: #000428;
+    padding: 10px;
+
+    border-radius: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.main-container .fifth-page{
+    height: 90vh;
+    /* background-color:aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding:10px; */
+    font-family: 'style script',sans-serif;
+}
+
+.main-container .fifth-page .reception-block,
+.main-container .fifth-page .mugurtham-block{
+    font-family: 'style script',sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+    height: 50vh;
+    
+    width: 90vw;
+    padding: 0.8rem;
+    /* background-color: #3a9197; */
+    margin: 10px;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    /* background: linear-gradient(to bottom right, #f0f0f0, #ffffff); */
+}
+
+.main-container .fifth-page .reception-block .img-reception,
+.main-container .fifth-page .mugurtham-block .img-mugurtham{
+    height: 70%;
+    border-radius: 10px;
+    /* background-color: #e66868; */
+    /* padding: 10%; */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+.main-container .fifth-page .mugurtham-block .img-mugurtham{
+    background-image: url(./assets/img/reception.jpeg);
+    background-image: url(./assets/img/indianwedding.webp);
+    background-size: cover;
+   
+}
+.main-container .fifth-page .reception-block .img-reception{
+    background-image: url(./assets/img/dance.png);
+  
+}
+.main-container .fifth-page .mugurtham-block{
+    margin-bottom: 50px;
+}
+.main-container .fifth-page>h4{   
+    font-weight: 400;
+    font-size: 21px;
+    color:#000428;
+}
+.footer-section{
+    border-radius: 2px;
+    color:white;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-color
+    :#fff;
+   
+   
+}
+.inside-footer{
+  width: 90%;
+  height: 75%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  background-color: #000428;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inside-footer p{
+    font-size: 0.8rem;
+    font-family: 'style script',Times, serif;
+    text-align: center;
+    padding: 5px;
+    justify-content: center;
+    
+    letter-spacing: 2px;
+    /* text-decoration: none; */
+    color: #fff;
+}
+.desclaimer{
+    font-size: 10px;
+}
+/* Media queries */
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 22px; /* Increase base font size for larger screens */
+    }
+   
+    .main-container .page-one{
+        height: 30vh;
+    }
+    .main-container .page-one h1{
+        padding-top: 2.5rem;
+    }
+    .main-container .page-one h1,
+    .main-container .page-one p {
+     
+        font-size: 4rem;
+    }
+    
+    .heading {
+        height: 34vh;
+    }
+}
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+@media only screen 
+  and (min-width: 768px) 
+  and (orientation: landscape) {
+    .main-container .page-two span{
+
+        height: 50%;
+        width: 100%;
+        background-size: contain;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 24px; /* Further increase base font size for larger screens */
+    }
+    body{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+    }
+    .date-container{
+        /* width: 50%; */
+        font-size: 2rem;
+    }
+    .countdown-item{
+        margin: 10px;
+        
+    }
+    .page-three p{
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+.page-three h2{
+   font-size: 2.5rem;
+   
+}
+.page-three h3{
+    /* letter-spacing: 5px; */
+    font-size: 2.6rem;
+}
+    .countdown-label{
+        font-size: 2rem;
+    }
+    #days, #hours, #minutes, #seconds {
+        padding: 20px;
+        font-size: 2.2rem;
+    }
+    #saveDateButton{
+        margin: 20px;
+        padding: 10px;
+    }
+    .page-three .location-a{
+        font-size: 2rem;
+
+    }
+    .countdown{
+        width: 40vw;
+        /* height: 40vh; */
+        
+    }
+    .container{
+        width: 60vw;
+    }
+    .main-container .page-two h2{
+        /* margin-top: 20px; */
+        font-size: 3.5rem;
+    }
+    .main-container .page-two span{
+        height: 50%;
+        width: 100%;
+        background-size: contain;
+    }
+    .main-container .page-one{
+        height: 50vh;
+    }
+    .main-container .page-one h1{
+        padding-top: 2.5rem;
+    }
+    .main-container .page-two p{
+        font-size: 2.6rem;
+        padding: 3rem;
+    }
+    .main-container .page-one h1,
+    .main-container .page-one p {
+        font-size: 5rem;
+    }
+
+    .heading {
+        height: 20vh;
+    }
+   
+}
