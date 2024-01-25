@@ -68,7 +68,7 @@ html {
     /* background-size: 140%; */
     /* background-size: cover; */
     background-blend-mode:overlay;
-    background-position-x: 80%;
+    background-position-x: 50%;
     /* border-radius: 20%; */
     
     opacity: 0.14;
@@ -162,7 +162,7 @@ html {
     /* font-family:'style script', Tahoma, Geneva, Verdana, sans-serif; */
     font-family: "josephsophia", sans-serif;
     display: inline;
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     color: #f3af30;
     /* padding-top: 50%; */
     font-weight: 550;
@@ -185,7 +185,7 @@ html {
 
     color: #3a9197;
     font-weight: 550;
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     padding-right: 0px;
 }
 
@@ -201,7 +201,7 @@ html {
     background-image: url(./assets/img/reception.jpeg);
     background-position: center;
     
-    background-size: contain; 
+    background-size:contain; 
      
     background-repeat: no-repeat;
     mix-blend-mode: multiply;
@@ -224,8 +224,9 @@ html {
     align-items: center;
    
     
-    height: 70vh;
+    /* height: 90vh; */
     background-color: transparent;
+  
 }
 .main-container .page-three{
     position: relative;
@@ -255,12 +256,12 @@ html {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    /* bottom: 0; */
     opacity: 0.1; /* Adjust opacity as needed */
     background-image: url(./assets/img/flying-birds.png);
     background-position: center;
     background-size: contain;
-    /* height: 50vh; */
+    /* height: 70vh; */
     background-repeat: no-repeat;
     z-index: -11;
 }
@@ -377,7 +378,8 @@ html {
 
 
 .main-container .fifth-page{
-    height: 100vh;
+    height: 110vh;
+    margin-top: 40px;
     /* background-color:aquamarine; */
     display: flex;
     flex-direction: column;
@@ -404,14 +406,14 @@ html {
 }
 
 .main-container .fifth-page .reception-block{
-    height: 95vh;
+    height: 70vh;
 }
 .main-container .fifth-page .mugurtham-block{
-    height: 55vh;
+    height: 50vh;
 }
 .main-container .fifth-page .reception-block .img-reception,
 .main-container .fifth-page .mugurtham-block .img-mugurtham{
-    height: 70%;
+    height: 60%;
     border-radius: 10px;
     /* background-color: #e66868; */
     /* padding: 10%; */
@@ -526,7 +528,7 @@ html {
   and (orientation: landscape) {
     .main-container .page-two span{
 
-        height: 50%;
+        height: 60%;
         width: 100%;
         background-size: contain;
     }
