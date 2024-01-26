@@ -199,9 +199,11 @@ html {
     /* margin-top: 30px; */
  
     background-image: url(./assets/img/reception.jpeg);
+    
     background-position: center;
     
     background-size:contain; 
+
      
     background-repeat: no-repeat;
     mix-blend-mode: multiply;
@@ -256,7 +258,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
-    /* bottom: 0; */
+    bottom: 0;
     opacity: 0.1; /* Adjust opacity as needed */
     background-image: url(./assets/img/flying-birds.png);
     background-position: center;
@@ -378,7 +380,7 @@ html {
 
 
 .main-container .fifth-page{
-    height: 110vh;
+    height: 70vh;
     margin-top: 40px;
     /* background-color:aquamarine; */
     display: flex;
@@ -394,7 +396,7 @@ html {
     letter-spacing: 4px;
     text-align: center;
    
-    
+    margin-bottom: 20%;
     width: 90vw;
     padding: 0.8rem;
     /* background-color: #3a9197; */
@@ -406,37 +408,36 @@ html {
 }
 
 .main-container .fifth-page .reception-block{
-    height: 70vh;
+    height: 50vh;
 }
 .main-container .fifth-page .mugurtham-block{
     height: 50vh;
 }
-.main-container .fifth-page .reception-block .img-reception,
-.main-container .fifth-page .mugurtham-block .img-mugurtham{
-    height: 60%;
+.main-container .fifth-page .reception-block .img-reception{
+    height: 78%;
     border-radius: 10px;
     /* background-color: #e66868; */
     /* padding: 10%; */
+    padding-bottom: 27%;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
    
 }
-.main-container .fifth-page .mugurtham-block .img-mugurtham{
-    background-image: url(./assets/img/reception.jpeg);
-    background-image: url(./assets/img/indianwedding.webp);
-    background-size: cover;
-   
-}
+
 
 .main-container .fifth-page .reception-block .img-reception{
     background-image: url(./assets/img/dance.png);
-  
+   
+   background-image: url(./assets/img/couple-one.jpeg);
+    background-size: cover;
+  background-size: 112%;
 }
 .main-container .fifth-page .mugurtham-block{
     margin-bottom: 50px;
 }
 .main-container .fifth-page>h4{   
+    margin-top: 5vh;
     font-weight: 400;
     font-size: 21px;
     color:#000428;
@@ -444,8 +445,8 @@ html {
 .main-container .fifth-page .reception-block .reception-loc{
     color: whitesmoke;
     padding: 3px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 30%;
+    margin-right: 30%;
     border-radius: 10px;
     background-color: #000428;
 }
@@ -482,9 +483,9 @@ html {
   align-items: center;
 }
 .inside-footer p{
-    font-size: 0.8rem;
+    font-size: .94rem;
     font-family: 'style script',Times, serif;
-   
+    font-weight: 10;
     text-align: center;
     padding: 5px;
     justify-content: center;
@@ -492,6 +493,12 @@ html {
     letter-spacing: 2px;
     /* text-decoration: none; */
     color: #fff;
+}
+.inside-footer p a{
+    text-decoration: none;
+    font-family:   'style script', sans-serif;
+    
+   
 }
 .desclaimer{
     font-size: 10px;

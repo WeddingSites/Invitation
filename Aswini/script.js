@@ -1,7 +1,7 @@
 
 /* timer start*/
 function updateCountdown() {
-  const weddingDate = new Date("2024-02-11T07:30:00").getTime();
+  const weddingDate = new Date("2024-02-11T18:30:00").getTime();
  
   const now = new Date().getTime();
   const timeDifference = weddingDate - now;
@@ -44,12 +44,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const saveDateButton = document.getElementById("saveDateButton");
 
   // Event details
-  const eventName = "The Wedding of S.Chengalappan & A.Aswini";
-  const eventLocation = "Saravanan Marriage Hall,Thiruvottriyur";
+  const eventName = " S. Chengalappan & A. Aswini's Wedding Reception";
+  const eventLocation = "Arulmigu Sri Maalaiamman Maaligai A/c,New Washermenpet";
   const eventStartDate = "20240211"; // YYYYMMDD format
-  const eventStartTime = "073000"; // HHmmss format in 24-hour clock
+  const eventStartTime = "183000"; // HHmmss format in 24-hour clock
   const eventEndDate = "20240211"; // YYYYMMDD format
-  const eventEndTime = "150000"; // HHmmss format in 24-hour clock
+  const eventEndTime = "220000"; // HHmmss format in 24-hour clock
 
   // Create Google Calendar link
   const googleCalendarLink = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(eventName)}&dates=${encodeURIComponent(eventStartDate + "T" + eventStartTime + "/" + eventEndDate + "T" + eventEndTime)}&location=${encodeURIComponent(eventLocation)}`;
