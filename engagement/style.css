@@ -1,6 +1,6 @@
 /* Import fonts if needed */
 @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @font-face {
     font-family: "josephsophia";
     src: url('./assets/fonts/josephsophia.otf');
@@ -65,7 +65,7 @@ html {
   right: 0;
   bottom: 0;
   left: 0;
-    background-image: url(./assets/img/pngwing-ring.png);
+    background-image: url(./assets/img/pngwing.com\ \(2\).png);
   
     /* background-image: url(./assets/img/propose-girlfriends.gif); */
     background-repeat: no-repeat;
@@ -168,20 +168,23 @@ html {
     display: flex;
     flex-direction: column;
     font-family: "josephsophia", sans-serif;
+    font-family:'style script', Tahoma, Geneva, Verdana, sans-serif;
 }
 .main-container .page-two .bride{
 
     /* font-family:'style script', Tahoma, Geneva, Verdana, sans-serif; */
-    font-family: "josephsophia", sans-serif;
+    font-family:'Pacifico', Tahoma, Geneva, Verdana, sans-serif;
     
     display: inline;
     font-size: 2.1rem;
-    color: #f3af30;
+    color:#183D3D;
     /* padding-top: 50%; */
     font-weight: 550;
-    
+    /* letter-spacing: 1px; */
+    /* font-weight: 800; */
     /* margin: 7px; */
     /* padding-left: 130px; */
+    margin-top:-13px;
 }
 
 .main-container .page-two p{
@@ -196,8 +199,9 @@ html {
 
 .main-container .page-two h2 b {
 
-    color: #3a9197;
+    color: #0c2d42;
    line-height: .5;
+   font-family: 'Pacifico';
    margin-top: 23px;
     font-weight: 550;
     font-size: 2.1rem;
@@ -233,6 +237,7 @@ html {
     color: #e66868;
     font-size: 2rem;
     /* margin: 6px; */
+    margin-top: 30px;
     font-weight: 100;
 }
 .main-container .page-three .page-three-container{
@@ -243,11 +248,17 @@ html {
     
     /* height: 90vh; */
     background-color: transparent;
+    
   
+}
+.main-container .page-three .page-three-container h2{
+
+    color: #000428;
 }
 .main-container .page-three{
     position: relative;
     height: 60vh;
+    color: #000428;
 }
 
 .page-three-container .place-heading{
@@ -255,18 +266,22 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 70%;
-    height: 10vh;
+    width: 50%;
+    height: 8vh;
     background-image: url(./assets/img/Pngtreenameplate.png);
     background-position: center;
-    background-size: cover;
+    background-size: 120%;
     background-repeat: no-repeat;
    /* background-blend-mode: saturation; */
-    /* mix-blend-mode: soft-light; */
-    text-align: center;
+    mix-blend-mode: soft-light;
+    /* text-align: center; */
     /* background-color: #000428; */
+    
 }
-
+.page-three-container .place-heading h3{
+    padding-top: 10px;
+    font-family:'style script', Helvetica, sans-serif;
+}
 .main-container .page-three::before {
     content: "";
     position: absolute;
@@ -309,7 +324,7 @@ html {
   .countdown-label {
     display: block;
     font-size: 0.8rem;
-    color: black;
+    color: #000428;
     font-weight: 600;
   }
   
