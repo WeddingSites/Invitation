@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-color: #410F0F; */
 }
 html .tag{
     scroll-behavior: smooth;
@@ -13,10 +14,13 @@ html .tag{
     max-width: 100%;
     margin: 0 auto;
     background-color: #410F0F;
-    height: auto;
+    /* height: 100vh; */
     /* border: 1px solid #ccc; */
    /* Height can vary based on the phone model */
     /* overflow-y: scroll; */
+}
+.container > div{
+    height: auto;
 }
 .container .venue{
     position: relative;
@@ -50,7 +54,7 @@ html .tag{
 .social{
     position: absolute;
     /* margin-top: 117vh; */
-    padding: 3vh;
+    padding:3vh;
     padding-left: 80px;
     padding-right: 80px;
     background-color: transparent;
